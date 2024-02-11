@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .button {
+    @apply bg-main-grey font-bold p-3 rounded-lg transition ease-in-out duration-1000 hover:bg-main-green hover:shadow-md hover:shadow-main-green hover:text-black;
+  }
+}
